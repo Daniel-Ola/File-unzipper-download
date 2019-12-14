@@ -1,0 +1,13 @@
+##<IfModule mod_php7.c>
+##   php_value upload_max_filesize 40M
+##   php_value post_max_size 40M
+##</IfModule>
+
+
+RewriteEngine On
+RewriteRule		^admin/?$	register.php?type=0
+
+ErrorDocument 404 http://localhost/dre-files/login.php
+#ErrorDocument 404 http://christinsocial.com/page-not-found
+
+#RewriteRule    ^page-not-found?$    login.php    [NC,L]    # Handle requests for "pet-care"
