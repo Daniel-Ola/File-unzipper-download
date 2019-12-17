@@ -1,5 +1,5 @@
 <?php 
-    $root = 'http://'.$_SERVER['SERVER_NAME'].'/dre-files/' ;
+    $root = 'http://'.$_SERVER['SERVER_NAME'].'/' ;
 ?>
 <!DOCTYPE html>
 <html lang="en">

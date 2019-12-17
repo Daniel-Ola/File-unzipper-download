@@ -1,3 +1,6 @@
+<?php 
+    $root = 'http://'.$_SERVER['SERVER_NAME'].'/' ;
+?>
 <!-- jQuery  -->
         <script src="<?= $root ?>assets/js/jquery.min.js"></script>
         <script src="<?= $root ?>assets/js/bootstrap.min.js"></script>
