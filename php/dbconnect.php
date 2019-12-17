@@ -8,10 +8,10 @@
 
 function dbconnect()
 {
-	$connect = mysqli_connect("localhost" , "root" , "") ;
+	$connect = mysqli_connect("remotemysql.com" , "sRsYCnN0Z2" , "wtn1bMv1Wb") ;
 	if($connect)
 	{
-		$handle = mysqli_select_db($connect , "oladan_drefiles") ;
+		$handle = mysqli_select_db($connect , "sRsYCnN0Z2") ;
 		if($handle)
 		{
 
